@@ -7,7 +7,7 @@ export type AffairType = { _id: number; name: string; priority: string }; // nee
 export type FilterType = 'all' | AffairPriorityType;
 
 // constants
-const defaultAffairs: any = [
+const defaultAffairs: Array<AffairType> = [
   // need to fix any
   { _id: 1, name: 'React', priority: 'high' },
   { _id: 2, name: 'anime', priority: 'low' },
